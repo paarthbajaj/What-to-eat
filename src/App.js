@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/meal/:id" component={SingleMeal} />
-        <Route path="*" component={Error} />
+        <Route component={Error} />
       </Switch>
     </Router>
   );
